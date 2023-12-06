@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body { 
+body {
     background-color: rgb(208, 227, 227);
 }
 
@@ -40,11 +40,6 @@ ul li {
     font-size: 1.5em;
 }
 
-/* div {
-    background-color: #ff9f9f;
-    text-align: left;
-
-} */
 
 footer p {
     background-color: #ffaeae;
@@ -90,9 +85,9 @@ main .contenedor-flex img {
     margin-top: 4rem;
 }
 
-.parrafocolor {
+/* .parrafocolor {
     margin-bottom: 3rem;
-}
+} */
 
 .section .horarios {
     text-align: center;
@@ -191,6 +186,7 @@ main div p {
     margin-bottom: 1em;
     text-align: justify;
     margin: 0;
+    letter-spacing: -0.5px;
 }
 
 main div h4 {
@@ -201,52 +197,6 @@ main div h4 {
 main div ul li {
     list-style: none;
     text-align: justify;
-}
-
-@media (min-width: 768px) {
-    header {
-        flex-direction: row;
-    }
-
-    header nav ul {
-        display: flex;
-        column-gap: 10px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
-
-
-
-}
-
-@media(max-width: 1024px) {
-    header{
-        flex-direction: column;
-    }
-
-    header nav ul{
-        font-display: flex;
-        column-gap: 16px;
-    }
-
-    img{
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
-
-}
-
-@media (max-width: 768px) {
-    body {
-        font-size: 10px;
-        text-align: center;
-    }
-
 }
 
 .menu {
@@ -279,7 +229,7 @@ main div ul li {
     background-color: #ffaeae;
 }
 
-.ubicacion{
+.ubicacion {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -294,28 +244,31 @@ h2 {
     color: #ffffff;
 }
 
-p{
+p {
     text-align: justify;
     font-size: 1.9rem;
     border: #997777;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    letter-spacing: -0.5px;
 }
-h3{
+
+h3 {
     font-size: 3rem;
     color: #faf6f6;
     margin: 0;
-    
+
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 2rem;
     color: #fffefe;
     background-color: rgb(172, 234, 234);
     margin: 0;
 }
-.img{
+
+.img {
     width: 100%;
     height: auto;
     padding: 55px;
@@ -323,28 +276,30 @@ h1{
 }
 
 
-.redes{
+.redes {
     background-color: rgb(208, 227, 227);
 }
-.main-ejemplos section .contenedor{
+
+.main-ejemplos section .contenedor {
     display: flex;
 }
 
-.main-ejemplos section .contenedor .card{
+.main-ejemplos section .contenedor .card {
     width: 300px;
     height: 350px;
     background-color: #ffffff
-    
-} 
-.main-ejemplos section .contenedor .card img{
+}
+
+.main-ejemplos section .contenedor .card img {
     width: 100%;
     height: 200%;
-    
-} 
-.contenedor{
+
+}
+
+.contenedor {
     background-color: rgb(208, 227, 227);
     display: flex;
-    flex-flow: column wrap; 
+    flex-flow: column wrap;
     row-gap: 10px;
     column-gap: 15px;
     height: 400px;
@@ -352,3 +307,73 @@ h1{
     align-items: center;
     border-radius: 10px;
 }
+
+.parrafo{
+    text-align: justify;
+    font-size: 1.9rem;
+    border: #997777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    letter-spacing: -0.5px;
+}
+
+@media (max-width: 320px) {
+    p{
+        word-spacing: 0.5px; 
+    }
+    header {
+        flex-direction: row;
+    }
+
+    header nav ul {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    } 
+
+    section{ 
+        width: 100%;
+
+    }
+}
+
+@media (min-width: 768px) {
+    header {
+        flex-direction: row;
+    }
+
+    header nav ul {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+}
+
+@media(max-width: 1024px) {
+    header {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        font-display: flex;
+        column-gap: 16px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
