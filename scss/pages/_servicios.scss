@@ -1,0 +1,46 @@
+/*estilos de servicios*/
+main{
+    .contenedor-grilla{
+        @include grid (1fr 1fr 1fr, 0fr, center);
+        // display: grid;
+        // grid-template-columns: 1fr 1fr 1fr;
+        // grid-template-rows: 0fr;
+        gap: 2%;
+        // justify-items: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .img-grid{
+        border-radius: 10px;
+    }
+
+    section{
+        .h2-servicios{
+            background-color: $color-text;
+            text-align: center;
+        }
+        .div-servicios{
+            position: relative;
+            top: 18px;
+        }
+        ul{
+            li{
+                list-style: none;
+                color: #ffffff;
+                font-size: 1.8rem;
+            }
+        }
+        .h3-servicios{
+            color: #ffaeae;
+
+        }
+
+    }
+
+}
+
+
+
+
+
+

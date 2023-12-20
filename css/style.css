@@ -1,30 +1,30 @@
-* {
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 
-body {
+/* body {
     background-color: rgb(208, 227, 227);
-}
+} */
 
 
-header {
+/* header {
     background-color: #ffaeae;
-    padding: 10px;
+    padding: 5px;
     /* display: flex;
     flex-direction: column;
-    justify-content: space-between; */
-    align-items: center;
-}
+    /* justify-content: space-between; */
+    /* align-items: center;
+} */
 
-header nav ul {
+/* header nav ul {
     list-style: none;
     text-align: center;
-}
+} */ 
 
 
 
-header nav ul li a {
+/* header nav ul li a {
     color: rgb(175, 206, 206);
     text-decoration: none;
     column-gap: 140px;
@@ -38,15 +38,15 @@ ul li {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: 1.5em;
-}
+} */
 
 
-footer p {
+/* footer p {
     background-color: #ffaeae;
-    padding: 1em;
+    padding: 0.2px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2rem;
+    font-size: 0.5rem;
     color: #ffffff;
 }
 
@@ -55,74 +55,21 @@ footer div {
     padding: 0.5px;
     text-align: right;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1em;
+    font-size: 0.5em;
     color: #ffffff;
-}
+} */
 
-.imagen {
-    margin-left: 25%;
-    border-radius: 10px;
-}
-
-.logos {
-    width: 60px;
-    height: 60px;
-    ;
-}
-
-.contacto {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2rem;
-    font-style: normal;
-    color: white;
-}
-
-
-main .contenedor-flex img {
-    display: flex;
-    position: relative;
-    left: 45rem;
-    margin-top: 4rem;
-}
 
 /* .parrafocolor {
     margin-bottom: 3rem;
 } */
 
-.section .horarios {
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 3.5rem;
-    color: white;
-    margin-top: 60px;
-    margin-bottom: 20px;
-}
-
-.formulario .formularios {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2rem;
-    position: relative;
-    bottom: 25rem;
-    margin-bottom: 2rem;
 
 
-}
-
-.parrafoacercademi {
-    text-align: center;
-    background-color: #ff9f9f;
-    font-size: 50px;
-    color: #ffffff;
-    padding-bottom: 20px;
-
-}
 
 
-@media (min-width: 768px) {
+
+/* @media (min-width: 768px) {
     header {
         flex-direction: row;
     }
@@ -154,9 +101,9 @@ main .contenedor-flex img {
         height: auto;
         object-fit: cover;
     }
-}
+} */
 
-section div img {
+/* section div img {
     width: 50%;
     height: auto;
     object-fit: cover;
@@ -176,9 +123,9 @@ section div img {
     object-fit: cover;
     width: 100%;
     height: auto;
-}
+} */
 
-main div p {
+/* main div p {
     text-align: center;
     color: #ffffff;
     font-size: 2em;
@@ -197,9 +144,9 @@ main div h4 {
 main div ul li {
     list-style: none;
     text-align: justify;
-}
+} */
 
-.menu {
+/* .menu {
     flex-grow: 0;
 }
 
@@ -227,33 +174,33 @@ main div ul li {
 
 .fondo-rosa {
     background-color: #ffaeae;
-}
+} */
 
-.ubicacion {
+/* .ubicacion {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 
-}
+} */
 
-h2 {
+/* h2 {
     text-align: center;
     font-size: 3rem;
     background-color: rgb(208, 227, 227);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #ffffff;
-}
+} */
 
-p {
+/* p {
     text-align: justify;
     font-size: 1.9rem;
     border: #997777;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     letter-spacing: -0.5px;
-}
+} */
 
-h3 {
+/* h3 {
     font-size: 3rem;
     color: #faf6f6;
     margin: 0;
@@ -273,10 +220,10 @@ h1 {
     height: auto;
     padding: 55px;
     object-fit: cover;
-}
+} */
 
 
-.redes {
+/* .redes {
     background-color: rgb(208, 227, 227);
 }
 
@@ -294,9 +241,9 @@ h1 {
     width: 100%;
     height: 200%;
 
-}
+} */
 
-.contenedor {
+/* .contenedor {
     background-color: rgb(208, 227, 227);
     display: flex;
     flex-flow: column wrap;
@@ -315,9 +262,9 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     letter-spacing: -0.5px;
-}
+} */
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
     p{
         word-spacing: 0.5px; 
     }
@@ -340,9 +287,9 @@ h1 {
         width: 100%;
 
     }
-}
+} */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     header {
         flex-direction: row;
     }
@@ -375,5 +322,5 @@ h1 {
         height: auto;
         object-fit: cover;
     }
-}
+} */
 

@@ -4,74 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Titulo -->
-    <title>Masoterapeuta- Estefania</title>
+    <meta name="description" content="Contactate con nosotros por Whatsapp para reservar una cita. Horarios de atención de lunes a viernes de 10hs a 18hs y sábados de 10hs a 13hs.">
+    <meta name="keywords" content="Masajes, Rosario, Atención al Cliente, Contacto, Consultas, Horarios de Atención, Whatsapp, Teléfono, Email, Atención Personalizada">
+    <title> Contacto | Masoterapeuta Estefania</title>
     <!-- link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- link css -->
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-
     <header>
-        <nav class="navbar navbar-expand-lg fondo-rosa">
-            <div class="container-fluid fondo-rosa">
-                <a class="navbar-brand" href="#"> <img src="../img/logotres.png" alt=""></a>
-                <button class="navbar-toggler menu-button" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon menuhambur"></span>
-                </button>
-                <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-ul fondo-rosa">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="acercademi.html">Acerca de mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="servicios.html">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="ubicacion.html">Ubicacion</a>
-                        </li>
-                    </ul>
+        <img class="img-logo" class="img-logo" src="../img/logotres.png" alt="logo masoterapeuta estefania">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./acercademi.html">Acerca de mi</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="ubicacion.html">Ubicación</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main class="container">
+        <section class="row">
+        <h1 class="h1-contacto">Atencion al Cliente</h1>
+        <div class="row">
+            <h2>Contactanos</h2>
+            <div class="col-6">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img class="img-contacto" src="../img/reloj.png.png" alt="icono de reloj">
+                    <h3>Horarios</h3>
+                    <p>Lunes a Viernes: 10hs – 18hs <br>Sábados: 10hs – 13hs</p>
+                    <img class="img-contacto" src="../img/wsp.png.png"
+                        alt="logo de whattsapp">
+                    <h3>Whatsapp</h3>
+                    <p>3416726359</p>
+                    <img class="img-contacto" src="../img/gmail.png.png"
+                    alt="imagen del logo de gmail">
+                <span class="contacto-span">Email</span>
+                <p>Masajesrosario@gmail.com</p>
                 </div>
             </div>
-        </nav>
-
-
-    </header>
-    <main>
-        <div class="redes">
-            <p>Horarios y citas:</p>
-            <p>Lunes a sábados: 10:00-19:00hs</p>
-        </div>
-
-        </section>
-        <section>
-            <div>
-            <form>
-                <h1>Contactate con nosotros</h1>
-                <label for="nombre">Nombre y apellido</label>
-                <input type="text">
-                <label for="numerodetelefono">Número de telefono</label>
-                <input type="number">
-                <label for="email">Email</label>
-                <input type="email">
-            
-                <button>Enviar</button>
-            </form>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h2>Envianos tu consulta</h2>
+                <div>
+                    <input type="text" class="form-control my-3" id="exampleFormControlInput1" placeholder="Nombre">
+                    <input type="email" class="form-control my-3" id="exampleFormControlInput1"
+                        placeholder="Email@live.com (Requerido)">
+                </div>
+                <div>
+                    <textarea placeholder="Mensaje (Requerido)" class="form-control" id="exampleFormControlTextarea1"
+                        rows="3"></textarea>
+                    <button type="button" class="button-contacto" class="btn my-3 button-form hvr-wobble-vertical">Enviar</button>
+                </div>
             </div>
-    </section>
-        </div>
     </main>
+
+
     <footer>
         <!-- pie de pagina -->
         <div>

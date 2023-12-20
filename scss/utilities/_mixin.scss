@@ -1,0 +1,6 @@
+@mixin grid($grid-column, $grid-row, $grid-justify){
+    display: grid;
+    grid-template-columns: $grid-column;
+    grid-template-rows: $grid-row;
+    justify-items: $grid-justify;
+}

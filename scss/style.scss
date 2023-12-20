@@ -1,0 +1,24 @@
+
+@import"utilities/variables";
+@import "utilities/globals";
+@import "utilities/lists";
+@import"utilities/maps";
+@import "utilities/mixin";
+@import "utilities/extend";
+
+@import "base/body";
+@import "base/header"; 
+
+@import "pages/acercademi";
+@import "pages/index";
+@import "pages/servicios";
+@import "pages/ubicacion";
+@import "pages/contacto";
+
+@import "components/botones";
+@import "base/footer"; 
+
+@import "utilities/media_queries";
+
+
+

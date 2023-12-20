@@ -1,0 +1,6 @@
+/*estilos de body*/
+@import "../utilities/lists";
+
+body {
+    background-color: nth($list: $colores, $n: 1);
+}
