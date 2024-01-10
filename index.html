@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Masoterapeuta Estefania, nace en 2015 como una necesidad de generar un espacio de cuidado a tu mente y cuerpo del estres del dia a dia, realizando masajes y tersapias personalizadas.">
+    <meta name="description"
+        content="Masoterapeuta Estefania, nace en 2015 como una necesidad de generar un espacio de cuidado a tu mente y cuerpo del estres del dia a dia, realizando masajes y tersapias personalizadas.">
     <meta name="keywords" content="Inicio, Atencion personalizada, Servicios, Objetivos, Cuidado personal">
     <title>Inicio | Masoterapeuta-Estefania</title>
     <!-- link bootstrap -->
@@ -13,14 +14,16 @@
     <!-- link css -->
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="css/style.css">
+</head>
 
 <body>
     <header>
-    <img class="img-logo" src="img/logotres.png" alt="logo masoterapeuta estefania">
+        <img class="img-logo" src="img/logotres.png" alt="logo masoterapeuta estefania">
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/acercademi.html">Acerca de mi</a></li>
+                <li><a href="pages/acercademi.html">Acerca de mi</a>
+                </li>
                 <li><a href="pages/servicios.html">Servicios</a></li>
                 <li><a href="pages/contacto.html">Contacto</a></li>
                 <li><a href="pages/ubicacion.html">Ubicación</a></li>
@@ -29,33 +32,39 @@
     </header>
 
     <main>
-        <div>
-            <h1 class="">Masoterapeuta Estefania</h1>
-        </div>
-    
-        <div id="carouselExampleFade" class="carousel slide carousel-fade">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="img" src="img/masajesone.png" class="d-block w-100" alt="Beneficios de los masajes">
-                </div>
-                <div class="carousel-item">
-                    <img class="img" src="img/masajestwo.png" class="d-block w-100" alt="Beneficios de los masajes">
-                </div>
+        <div class="conteiner">
+            <div>
+                <h1 class="h1-index">Masoterapeuta Estefania</h1>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                data-bs-slide="prev">
-                <span class="carousel-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-next" type="button" data-bs-target="#carouselExampleFade"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/masajesone.png" class="d-block w-100" alt="efectos del masajes relajantes ">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/masajestwo.png" class="d-block w-100" alt=" beneficios de los masajes deportivos">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    
+
+        </div>
+
 
             <div class="div-index">
                 <h2 class="h2-index">Viví una experiencia única</h2>
-                <p class="parrafo-index">Mi objetivo es que disfrutes de un momento único para vos. Contamos con diferentes
+                <p class="parrafoindex">Mi objetivo es que disfrutes de un momento único para vos. Contamos con
+                    diferentes
                     alternetivas para nuestros clientes, centrándonos en las necesidades de cada uno. Si buscas
                     relajarte,
                     descontracturarte, darte un mimo o simplemente desconectar, en Masoterapeuta Estefania tenemos la
@@ -66,21 +75,16 @@
                     masaje africano, maderoterapia, etc
                 </p>
             </div>
-            </section>
-            <section class="contenedor">
-                <div class="row">
-                    <div class="col-6"> 
-                        <img class="img-index" src="./img/msajes.png" alt="masajes relajantes">
-                    </div>
-                    <div class="col-6"> <p class="parrafo-index">Libérate del estrés diario y encuentra la paz interior con nuestros masajes expertos. Te mereces un momento para ti.</p>
-                    </div>
+            <section>
+                <div>
+                    <img src="./img/msajes.png" alt="fotos de una chica en una sesion de masajes">
+                    <h2>Libérate del estrés diario y encuentra la paz interior con nuestros
+                        masajes expertos. Te mereces un momento para ti.</h2>
                 </div>
-                
-            
-            <div></div>
-            <div></div>
-
             </section>
+
+ 
+
 
 
     </main>
@@ -101,4 +105,4 @@
         crossorigin="anonymous"></script>
 </body>
 
-</htm>
+</html>

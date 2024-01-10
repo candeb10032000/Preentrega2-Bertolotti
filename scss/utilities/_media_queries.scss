@@ -1,93 +1,62 @@
-@media (min-width: 768px) {
+
+@media (min-width: 320px) and (max-width: 768px) {
     header {
         flex-direction: column;
-    }
 
-    header nav ul {
+        nav ul {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+    }
+    .main-ejemplos{
         display: flex;
-        column-gap: 10px;
+        flex-direction: column;
+        section{
+            .contenedor{
+                flex-direction: row;
+                .card{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    div{
+                        .parrafo-card{
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
     }
-
-    img {
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
+    
 }
 
-@media(max-width: 1024px) {
+
+@media (max-width: 1024px) {
     header {
         flex-direction: column;
-    }
 
-    header nav ul {
-        font-display: flex;
-        column-gap: 16px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
-}
-
-@media (max-width: 320px) {
-    p{
-        word-spacing: 0.5px; 
-    }
-    header {
-        flex-direction: row;
-    }
-
-    header nav ul {
-        display: flex;
-        column-gap: 10px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
-    } 
-
-    section{ 
-        width: 100%;
+        nav ul {
+            display: flex;
+            gap: 10px;
+        }
 
     }
 }
+
 
 @media (min-width: 768px) {
     header {
         flex-direction: row;
-    }
 
-    header nav ul {
-        display: flex;
-        column-gap: 10px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
-
-}
-
-@media(max-width: 1024px) {
-    header {
-        flex-direction: column;
-    }
-
-    header nav ul {
-        font-display: flex;
-        column-gap: 16px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
+        nav ul {
+            display: flex;
+            gap: 10px;
+        }
     }
 }
+
+
+
+

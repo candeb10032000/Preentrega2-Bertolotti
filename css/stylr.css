@@ -70,62 +70,57 @@ header nav ul li a {
 }
 
 /* Estilo/acerca de mi*/
-main section .column-card {
+.main-ejemplos section .contenedor {
   display: flex;
-  flex-direction: column;
-  background-color: rgb(172, 234, 234);
-  justify-content: center;
+  background-color: rgb(208, 227, 227);
+  flex-flow: column wrap;
+  row-gap: 10px;
+  column-gap: 15px;
+  height: 400px;
+  justify-content: space-between;
   align-items: center;
-  margin: 0;
 }
-main section .column-card .card {
-  width: 450px;
-  height: 450px;
+.main-ejemplos section .contenedor .card {
+  width: 300px;
+  height: 350px;
   background-color: #ffffff;
-  margin: 0;
+  border-radius: 1em;
+  border-top: 1em;
+  margin-top: 30px;
 }
-main section .column-card .card .parrafo-card {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 1, 5em;
+.main-ejemplos section .contenedor .card .parrafo-card {
   color: black;
   text-align: center;
 }
-main section .column-card .card img {
+.main-ejemplos section .contenedor img {
   width: 100%;
   height: 100%;
-  padding: 10px;
 }
-main section .text-acercademi {
+.main-ejemplos section .text-acercademi {
   color: #ffaeae;
   background-color: #ffffff;
   text-align: center;
   padding: 15px;
 }
-main section .text-h3 {
+.main-ejemplos section .text-h3 {
   color: rgb(28, 153, 153);
   text-align: center;
   text-decoration: double;
 }
-main section div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 600px;
-}
-main section div .img {
-  max-width: 100%;
-  max-height: 100%;
+.main-ejemplos section .img {
+  width: 80em;
+  height: auto;
+  position: relative;
+  left: 20em;
+  padding: 50px;
 }
 
 /*estilos-index*/
 main .h1-index {
   padding: 20px;
-  font-size: 3rem;
+  font-size: 2em;
 }
-main .carrousel {
-  margin: 0 auto;
-}
-main .imgg {
+main .img {
   width: 40rem;
   position: relative;
   left: 40rem;
@@ -145,9 +140,10 @@ main section .col-6 {
   padding: 150px;
 }
 main section .img-index {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 15em;
+  height: auto;
+  position: relative;
+  left: 30em;
 }
 main section .parrafo-index {
   font-size: 2em;
@@ -157,19 +153,33 @@ main section .parrafo-index {
 }
 
 /*estilos de servicios*/
-main .contenedor {
+main .contenedor-grilla {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, auto);
-  margin: 1rem 3rem 3rem 3rem;
-  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0fr;
+  justify-items: center;
+  gap: 2%;
+  align-items: center;
+  padding: 20px;
 }
-main .contenedor div {
-  height: 0px;
+main .img-grid {
+  border-radius: 10px;
 }
-main .contenedor div img {
-  width: 100%;
-  height: 100%;
+main section .h2-servicios {
+  background-color: #ffaeae;
+  text-align: center;
+}
+main section .div-servicios {
+  position: relative;
+  top: 18px;
+}
+main section ul li {
+  list-style: none;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+main section .h3-servicios {
+  color: #ffaeae;
 }
 
 /*estilo-contacto*/
@@ -213,50 +223,23 @@ footer div a {
   color: blue;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) {
   header {
     flex-direction: column;
   }
   header nav ul {
-    display: flex;
     flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-  .main-ejemplos {
-    display: flex;
-    flex-direction: column;
-  }
-  .main-ejemplos section .contenedor {
-    flex-direction: row;
-  }
-  .main-ejemplos section .contenedor .card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .main-ejemplos section .contenedor .card div .parrafo-card {
-    align-items: center;
+    column-gap: 10px;
   }
 }
 @media (max-width: 1024px) {
   header {
-    flex-direction: column;
-  }
-  header nav ul {
-    display: flex;
-    gap: 10px;
-  }
-}
-@media (min-width: 768px) {
-  header {
     flex-direction: row;
   }
   header nav ul {
     display: flex;
-    gap: 10px;
+    column-gap: 10px;
   }
 }
 
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=stylr.css.map */
