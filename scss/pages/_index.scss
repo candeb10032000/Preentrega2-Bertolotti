@@ -1,34 +1,27 @@
 /*estilos-index*/
 
-main{
-    .container {
+.main-index{
+    .conteiner {
         margin-top: 20px;
+        .div-index{
+            .h1-index{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 2em;
+            }
+        }
+        .divdos-index{
+            padding: 0 5%;
+
+            .h2-index{
+                color: aliceblue;
+
+            }
+        }
     }
     
     .carousel-inner {
         border-radius: 10px;
         overflow: hidden;
-    }
-
-    .div-index{
-        .h2-index{
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            font-size: 2,5rem;
-            background-color: rgb(148, 227, 237);
-        }
-        .parrafoindex{
-            background-color: rgb(148, 227, 237);
-        }
-
-    }
-
-    section{
-        div{
-            h2{
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: 1.4rem;
-            }
-        }
     }
 
 

@@ -164,14 +164,9 @@ main section .h3-servicios {
 }
 
 /*estilo-contacto*/
-.contacto-span {
-  color: white;
-}
-
-.h1-contacto {
-  text-align: center;
-  color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+main section .h1-contacto {
+  background-color: rgb(218, 232, 232);
+  font-size: 2em;
 }
 
 /*BOTONES*/

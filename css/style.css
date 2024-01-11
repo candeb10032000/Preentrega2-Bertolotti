@@ -30,11 +30,6 @@ p {
   font-size: 1.5em;
 }
 
-main section .parrafo-index {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: #ffffff;
-}
-
 /*estilos de body*/
 body {
   background-color: rgb(172, 234, 234);
@@ -70,117 +65,178 @@ header nav ul li a {
 }
 
 /* Estilo/acerca de mi*/
-main section .column-card {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(172, 234, 234);
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
-main section .column-card .card {
-  width: 450px;
-  height: 450px;
-  background-color: #ffffff;
-  margin: 0;
-}
-main section .column-card .card .parrafo-card {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 1, 5em;
-  color: black;
-  text-align: center;
-}
-main section .column-card .card img {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-}
-main section .text-acercademi {
-  color: #ffaeae;
-  background-color: #ffffff;
-  text-align: center;
-  padding: 15px;
-}
-main section .text-h3 {
-  color: rgb(28, 153, 153);
-  text-align: center;
-  text-decoration: double;
-}
-main section div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 600px;
-}
-main section div .img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 /*estilos-index*/
-main .h1-index {
-  padding: 20px;
-  font-size: 3rem;
+.main-index .conteiner {
+  margin-top: 20px;
 }
-main .carrousel {
-  margin: 0 auto;
-}
-main .imgg {
-  width: 40rem;
-  position: relative;
-  left: 40rem;
-  border-radius: 50px;
-}
-main .div-index .parrafo-index {
-  position: relative;
-  bottom: 1.5em;
-}
-main .div-index .h2-index {
-  text-align: center;
-  position: relative;
-  bottom: 20px;
-  padding: 20px;
-}
-main section .col-6 {
-  padding: 150px;
-}
-main section .img-index {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-main section .parrafo-index {
+.main-index .conteiner .div-index .h1-index {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 2em;
-  position: relative;
-  right: 7em;
-  top: 1.2em;
+}
+.main-index .conteiner .divdos-index {
+  padding: 0 5%;
+}
+.main-index .conteiner .divdos-index .h2-index {
+  color: aliceblue;
+}
+.main-index .carousel-inner {
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 /*estilos de servicios*/
-main .contenedor {
+.servicios-main .imagenes {
+  height: 100%;
+}
+.servicios-main .imagenes .contenedor-grilla .hijo {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, auto);
-  margin: 1rem 3rem 3rem 3rem;
-  gap: 1rem;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
 }
-main .contenedor div {
-  height: 0px;
-}
-main .contenedor div img {
+.servicios-main .imagenes .contenedor-grilla .hijo .img-grid {
   width: 100%;
-  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.servicios-main .titulos {
+  margin-top: 20px;
+  width: 100%;
+  padding: 0 20px;
+}
+.servicios-main .titulos .titulos-contenedor h1 {
+  font-size: 30px;
+  margin: 0;
+}
+.servicios-main .titulos .titulos-contenedor p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.servicios-main .nuestros-servicios {
+  padding: 0 20px;
+}
+.servicios-main .nuestros-servicios h2 {
+  background-color: #ffaeae;
+  text-align: center;
+}
+.servicios-main .nuestros-servicios .div-servicios {
+  position: relative;
+  top: 18px;
+}
+.servicios-main .nuestros-servicios .div-servicios ul {
+  margin: 0;
+  padding: 0;
+}
+.servicios-main .nuestros-servicios .div-servicios ul li {
+  list-style: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.servicios-main .masajes {
+  padding: 0 20px;
+}
+.servicios-main .masajes .descontracturantes .h3-servicios {
+  color: #ffaeae;
+}
+.servicios-main .masajes .descontracturantes p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.servicios-main .masajes .relajantes h3 {
+  color: #ffaeae;
+}
+.servicios-main .masajes .relajantes p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.servicios-main .masajes .relajantes ul {
+  margin: 0;
+  padding: 0;
+}
+.servicios-main .masajes .relajantes ul li {
+  list-style: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.servicios-main .masajes .deportivos h3 {
+  color: #ffaeae;
+}
+.servicios-main .masajes .deportivos p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.servicios-main .masajes .deportivos ul {
+  margin: 0;
+  padding: 0;
+}
+.servicios-main .masajes .deportivos ul li {
+  list-style: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.servicios-main .masajes .ventosas h3 {
+  color: #ffaeae;
+}
+.servicios-main .masajes .ventosas p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.main-ubicacion .section-ubic {
+  padding: 0 10%;
+}
+.main-ubicacion .section-ubic h1 {
+  color: #ffaeae;
+  background-color: rgb(238, 243, 243);
+  font-size: 2em;
+  margin-top: 10px;
+}
+.main-ubicacion .section-ubic p {
+  font-size: 2em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+.main-ubicacion .servicios-ubicacion {
+  padding: 0 10%;
+}
+.main-ubicacion .servicios-ubicacion h2 {
+  color: #ffaeae;
+  font-size: 2em;
+}
+.main-ubicacion .servicios-ubicacion ul li {
+  list-style: none;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+.main-ubicacion .ubicacion .ubic-div {
+  padding: 0 10%;
+}
+.main-ubicacion .ubicacion .ubic-div h3 {
+  color: #ffaeae;
+  font-size: 2em;
+}
+.main-ubicacion .ubicacion .ubic-div p {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+.main-ubicacion .ubicacion .ubic-div .iframe {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 /*estilo-contacto*/
-.contacto-span {
-  color: white;
-}
-
-.h1-contacto {
-  text-align: center;
-  color: white;
+.main-contacto h1 {
+  color: #ffaeae;
+  font-size: 3em;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.main-contacto .container-fluid {
+  text-align: center;
+}
+.main-contacto .container-fluid .datosdecontacto {
+  margin-top: 80px;
+  padding: 0 10%;
 }
 
 /*BOTONES*/
@@ -196,21 +252,15 @@ footer {
   background-color: #ffaeae;
   padding: 0.5em;
 }
-footer div {
+footer .footer-section {
   background-color: #ffaeae;
   padding: 0.5px;
   text-align: right;
   font-family: Cambria;
   font-size: 1rem;
 }
-footer div p {
+footer .footer-section .footer-iconos {
   text-align: center;
-  font-family: Cambria;
-  font-size: 1.5rem;
-  color: #ffffff;
-}
-footer div a {
-  color: blue;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
@@ -255,6 +305,11 @@ footer div a {
   header nav ul {
     display: flex;
     gap: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .servicios-main .imagenes .contenedor-grilla .hijo {
+    display: flex;
   }
 }
 

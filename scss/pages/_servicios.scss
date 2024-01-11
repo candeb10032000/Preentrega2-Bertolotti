@@ -1,41 +1,139 @@
 /*estilos de servicios*/
-main{
-    .contenedor-grilla{
-        @include grid (1fr 1fr 1fr, 0fr, center);
-        // display: grid;
-        // grid-template-columns: 1fr 1fr 1fr;
-        // grid-template-rows: 0fr;
-        gap: 2%;
-        // justify-items: center;
-        align-items: center;
-        padding: 20px;
-    }
-    .img-grid{
-        border-radius: 10px;
+.servicios-main {
+
+    .imagenes {
+        height: 100%;
+
+        .contenedor-grilla {
+            .hijo {
+                @include grid (1fr, repeat(3, 1fr), center);
+                align-items: center;
+
+                .img-grid {
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
     }
 
-    section{
-        .h2-servicios{
+    .titulos {
+        margin-top: 20px;
+        width: 100%;
+        padding: 0 20px;
+
+        .titulos-contenedor {
+
+            h1 {
+                font-size: 30px;
+                margin: 0;
+            }
+
+            p {
+                font-size: 20px;
+                margin-top: 10px;
+            }
+
+        }
+    }
+
+    .nuestros-servicios {
+
+        padding: 0 20px;
+
+        h2 {
             background-color: $color-text;
             text-align: center;
         }
-        .div-servicios{
+
+        .div-servicios {
             position: relative;
             top: 18px;
-        }
-        ul{
-            li{
-                list-style: none;
-                color: #ffffff;
-                font-size: 1.8rem;
+
+            ul {
+                margin: 0;
+                padding: 0;
+
+                li {
+                    list-style: none;
+                    color: #ffffff;
+                    font-size: 1.5rem;
+                }
             }
         }
-        .h3-servicios{
-            color: #ffaeae;
-
-        }
-
     }
 
-}
+    .masajes {
+        padding: 0 20px;
 
+        .descontracturantes {
+            .h3-servicios {
+                color: #ffaeae;
+            }
+
+            p {
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+
+        .relajantes {
+
+            h3 {
+                color: #ffaeae;
+            }
+
+            p {
+                font-size: 20px;
+                margin-top: 10px;
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+
+                li {
+                    list-style: none;
+                    color: #ffffff;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .deportivos {
+
+            h3 {
+                color: #ffaeae;
+            }
+
+            p {
+                font-size: 20px;
+                margin-top: 10px;
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+
+                li {
+                    list-style: none;
+                    color: #ffffff;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .ventosas {
+
+            h3 {
+                color: #ffaeae;
+            }
+
+            p {
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+    }
+}

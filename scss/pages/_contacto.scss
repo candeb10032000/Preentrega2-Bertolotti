@@ -1,11 +1,16 @@
 /*estilo-contacto*/
+.main-contacto {
+    h1{
+        color: #ffaeae;
+        font-size: 3em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    .container-fluid{
+        text-align: center;
+        .datosdecontacto{
+            margin-top: 80px;
+            padding: 0 10%;
+        }
+    }
 
-.contacto-span{
-    color: white;
-}
-
-.h1-contacto{
-    text-align: center;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

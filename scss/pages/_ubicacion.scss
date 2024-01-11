@@ -1,0 +1,55 @@
+.main-ubicacion{
+    .section-ubic{
+        padding: 0 10%;
+
+        h1{
+            color: #ffaeae;
+            background-color: rgb(238, 243, 243);
+            font-size: 2em;
+            margin-top: 10px;
+        }
+        p{
+            font-size: 2em;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+        }
+    }
+
+    .servicios-ubicacion{
+        padding: 0 10%;
+
+        h2{
+            color: #ffaeae;
+            font-size: 2em;
+            
+        }
+        ul{
+            li{
+                list-style: none;
+                color: #ffffff;
+                font-size: 1.5em;
+            }
+        }
+    }
+
+    .ubicacion{
+        .ubic-div{
+            padding: 0 10%;
+            h3{
+                color: #ffaeae;
+                font-size: 2em;
+            }
+            p{
+                color: #ffffff;
+                font-size: 1.5em;
+            }
+
+            .iframe{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            
+        }
+    }
+
+}
