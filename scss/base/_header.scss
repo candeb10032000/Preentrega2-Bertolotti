@@ -1,4 +1,4 @@
-
+/*estilos-header*/
 
 header{
     display: flex;
@@ -8,6 +8,9 @@ header{
     background-color: #ffaeae;
     .img-logo{
         width: 10em;
+        position: relative;
+        left: 20px;
+
         // height: auto;
     }
     nav{
